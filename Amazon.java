@@ -1,22 +1,15 @@
-import java.util.*;
-
-import javax.print.DocFlavor.STRING;
+import java.util.*
 
 class amazon {
     public static Scanner sc=new Scanner(System.in);
     static List<String> name = new ArrayList<>();//name
     static List<String> id = new ArrayList<>();//id
     static List<String> password = new ArrayList<>();//pass
-
-   
-
-
+    
     static List<String> newName = new ArrayList<>();//name
     static List<String> newId = new ArrayList<>();//id
     static List<String> newPass = new ArrayList<>();//pass
-
-    
-
+  
     static List<Integer> pId = new ArrayList<>();//Productid
     static List<String> pName = new ArrayList<>();//product name
     static List<Integer> pPrice = new ArrayList<>();//product price
@@ -28,9 +21,6 @@ class amazon {
     static List<String> pCategoryname = new ArrayList<>();//product category name
     static int ProductID=2000;
     
-    
-    
-
     static List<String> username = new ArrayList<>();//username name
     static List<String> userpass = new ArrayList<>();//userpassword
     static List<Integer> userbal = new ArrayList<>();//userbal
@@ -914,10 +904,8 @@ class amazon {
 
                    }else{
                        System.out.println("Invalid input");
-
                    }
                    delay();
-
                }
             }
             else if(Choice==4) {
@@ -926,7 +914,6 @@ class amazon {
                 System.out.println("Invalid input");
                 delay();
             }
-
         }
     }
 }
